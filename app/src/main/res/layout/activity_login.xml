@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/pozadina"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+
+        >
+        <ImageView
+            android:id="@+id/ugasime"
+            android:layout_width="30dp"
+            android:layout_height="55dp"
+            android:layout_gravity="left"
+
+
+            android:src="@drawable/ugasime" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="128dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+
+            android:src="@drawable/grbovi" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:text="Bosna i Hercegovina \n Federacija Bosne i Hercegovine \n Kanton Sarajevo \n \n MINISTARSTVO ZDRAVSTVA KANTONA SARAJEVO \n VAKCINACIJA PROTIV COVID-19 \n \n PRIJAVA KORISNIKA"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:hint="Upiši korisničko ime"
+            android:textColor="#000000"
+
+            android:textColorHint="@android:color/black" />
+
+        <EditText
+
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:hint="Upiši šifru"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+
+            android:textColorHint="@android:color/black" />
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+
+
+            android:text="PRIJAVI SE" />
+
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Display1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:text="Nisi prijavljen?"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="italic
+" />
+
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+
+
+            android:text="REGISTRUJ SE" />
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:text="Dodatne informacije"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/learn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+
+
+            android:text="NAUČI VIŠE O VAKCINAMA" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:text="SAZNAJ VIŠE O VAKCINALNIM PUNKTOVIMA U KS"
+
+
+            android:id="@+id/nadjilokaciju"/>
+
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:text="Korisni linkovi"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/zzjz"
+            android:layout_width="wrap_content"
+            android:layout_height="124dp"
+            android:layout_gravity="center_horizontal"
+
+            android:src="@drawable/zzjz" />
+
+        <ImageView
+            android:id="@+id/mzks"
+            android:layout_width="wrap_content"
+            android:layout_height="124dp"
+            android:layout_gravity="center_horizontal"
+
+            android:src="@drawable/screenshotmzks" />
+
+        <ImageView
+            android:id="@+id/mzfbih"
+            android:layout_width="wrap_content"
+            android:layout_height="124dp"
+            android:layout_gravity="center_horizontal"
+
+            android:src="@drawable/download" />
+
+        <ImageView
+            android:id="@+id/mzbih"
+            android:layout_width="wrap_content"
+            android:layout_height="124dp"
+            android:layout_gravity="center_horizontal"
+
+            android:src="@drawable/mcpbih" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
